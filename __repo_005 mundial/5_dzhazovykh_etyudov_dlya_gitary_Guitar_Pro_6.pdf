@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<link rel="shortcut icon" href="https://vk.com/images/icons/favicons/fav_logo.ico?6"><link rel="stylesheet" type="text/css" href="5_dzhazovykh_etyudov_dlya_gitary_Guitar_Pro_6_arquivos/common.css"><link rel="stylesheet" type="text/css" href="5_dzhazovykh_etyudov_dlya_gitary_Guitar_Pro_6_arquivos/fonts_cnt.css"><link rel="stylesheet" type="text/css" href="5_dzhazovykh_etyudov_dlya_gitary_Guitar_Pro_6_arquivos/fonts_utf.css"><title>5_dzhazovykh_etyudov_dlya_gitary_Guitar_Pro_6.pdf</title>
+<style>
+html, body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  border: none;
+}
+.iframe {
+  border: none;
+  display: block;
+  box-sizing: border-box;
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.docs_name {
+  display: block;
+  padding-top: 7px;
+}
+.docs_info {
+  padding: 7px 10px 0px;
+  color: #939699;
+}
+.docs_panel_wrap {
+  height: 50px;
+}
+.docs_panel {
+  background: #F1F1F1;
+  position: fixed;
+  width: 100%;
+  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+.docs_panel .docs_del_wrap {
+  margin: 0 5px;
+}
+.can_zoom {
+  max-width: 100%;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: -zoom-in;
+}
+.docs_panel .fl_r + .fl_r {
+    margin-right: 10px;
+}
+.can_zoom_out {
+  min-width: 100%;
+  cursor: -webkit-zoom-out;
+  cursor: -moz-zoom-out;
+  cursor: -zoom-out;
+}
+</style>
+<script>
+window.opener = null;
+function saveDoc() {
+  var src = 'https://psv4.userapi.com/c848032/u190545519/docs/d4/7123a65540bc/5_dzhazovykh_etyudov_dlya_gitary_Guitar_Pro_6.pdf?extra=_I0DnKmSujjpCnqwHgCJGrKHw6Cm7EPEwXxyjAjUIPSay2jIDJ7pm1jrNG651Rt57Si1f9ebuA1gCubKnpton-SMC3B09jmTGnjR0F3FCHZ7fcxOhO0BPav03aFiyEtjK5FwE8ahlgzrs2pVtC1iRIg';
+  if (src.match(/\?/)) {
+    src += '&dl=1';
+  } else {
+    src += '?dl=1';
+  }
+  location.replace(src);
+  return false;
+}
+
+function saveLitresDoc() {
+  var anchor = document.createElement('a');
+  anchor.href = 'https://psv4.userapi.com/c848032/u190545519/docs/d4/7123a65540bc/5_dzhazovykh_etyudov_dlya_gitary_Guitar_Pro_6.pdf?extra=_I0DnKmSujjpCnqwHgCJGrKHw6Cm7EPEwXxyjAjUIPSay2jIDJ7pm1jrNG651Rt57Si1f9ebuA1gCubKnpton-SMC3B09jmTGnjR0F3FCHZ7fcxOhO0BPav03aFiyEtjK5FwE8ahlgzrs2pVtC1iRIg';
+  anchor.target = '_blank';
+  anchor.download = 'book.pdf';
+
+  var clickEvent = new MouseEvent("click", {
+    "view": window,
+    "bubbles": true,
+    "cancelable": false
+  });
+  anchor.dispatchEvent(clickEvent);
+}
+function litresBuy() {
+    var src= '/doclinks.php?link=&hash=c29555746f65cfaa6d3d6d8b142a4905&act=buy_from_preview_page&platform=web2';
+    if (src) {
+        window.location = src;
+    }
+    return false;
+}
+function imgZoom(obj) {
+  if (obj.className == 'can_zoom') {
+    obj.className = 'can_zoom_out';
+  } else {
+    obj.className = 'can_zoom';
+    window.scroll(0, 0);
+  }
+}
+</script>
+</head>
+<body onkeydown="if (event.keyCode == 83 &amp;&amp; (event.ctrlKey || event.metaKey)) return saveDoc(event);">
+<noindex>
+<div class="docs_panel_wrap">
+  <div class="docs_panel">
+    <div class="clear_fix" style="padding: 10px 20px;">
+      <button class="flat_button fl_r" onclick="return saveDoc();">Download document</button>
+      <div class="docs_info fl_r"></div>
+      <a class="docs_name fl_l" onclick="return saveDoc();"><b>5_dzhazovykh_etyudov_dlya_gitary_Guitar_Pro_6.pdf</b></a>&nbsp;
+    </div>
+  </div>
+</div><iframe id="iframe" class="iframe" src="5_dzhazovykh_etyudov_dlya_gitary_Guitar_Pro_6_arquivos/5_dzhazovykh_etyudov_dlya_gitary_Guitar_Pro_6_002.pdf" width="100%" height="100%"></iframe>
+</noindex>
+
+</body></html>
