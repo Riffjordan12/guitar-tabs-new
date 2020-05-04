@@ -1,0 +1,21 @@
+Bom..
+
+Se você está se referindo ao service do DDD (domain driven design) é claro que conceitualmente existe diferença.
+
+O service no DDD mapeia conceitos de negócio que não foram mapeados para entidades ou VO´s.
+
+A fachada é um padrão de projeto e está mais relacionado a algo técnico do que de negócio. O seu papel é diminuir a granularidade e facilitar a operação de um sub-sistema.
+
+Acontece que as vezes fachadas e servicos podem ter semelhancas pela natureza das implementações mas conceitualmente são coisas bem distintas. 
+
+
+
+###
+
+
+Façade é um padrão genérico de implementação. O seu obejtivo é orquestrar vários objetos para uma finalidade bem estabelecida.
+O Façade não é necessáriamente um objeto. Pode ser um conjunto de métodos estáticos. ( Os managers do JasperReport são um bom exemplo). A ideia é condensar código, ou seja, em vez de 20 linhas chamando deus e o mundo no seu sistema toda a vez que quer invocar algum processo do sistema, vc usa só uma, passa os parametros e pronto. Internamente o objeto executará as 20 linhas fazendo chamadas a deus e o mundo, mas o utilizador do Façade não sabe disso. Com o tempo essas 20 linhas podem ser 2 chamando 2 ou tres outros objetos.
+
+Façade não é um Adapter, nem um Proxy, nem um Wrapper. Sua função é minimizar esforço de invocação e esforço de conhecimento ( o programador facilmente sabe chamar um método, mas dificilmente sabe replicar 20 linhas de chamadas a 10 objetos... ). Objetos como java.util.Arrays e java.util.Collections são exemplos de Façades
+
+Service Layer é um pouco diferente, mas não muito. A ideia é isolar o dominio através de serviços. Ou seja, não ha invocações previligiadas ao objetos de dominio, apenas os serviços fazem isso. E são vários serviços. Eles forma uma camada (conjunto de objetos) dai o nome Service Layer (Camada de Serviço). Façade pode ser usado se um serviço orquestar outros serviços mas não é vital. Em tese todos os serviços sao façades já que orquestram os vários objetos de dominio, mas os nomes são diferentes relativamene à sua função. Façades são genéricos, Serviços são objetos de Dominio. Serviços têm interfaces bem definidas, Façades não têm que ter isso ( como disse, podem ser apenas métodos estáticos)
